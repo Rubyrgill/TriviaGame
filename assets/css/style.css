@@ -38,6 +38,11 @@ font-family: 'Righteous', cursive;
   transform: scale(1.1);
 }
 
+h1{
+    font-family: Righteous,cursive;
+    font-size: 20px;
+}
+
 /*QUESTION PAGE*/
 #game-play {
     background-color: white;
@@ -59,4 +64,17 @@ font-family: 'Righteous', cursive;
 .answerList{
     font-size: 40px;
     border: 2px solid goldenrod;
+}
+
+/*RESPONSIVENESS*/
+@media screen and (max-width:640px){
+	.container{
+		width: 80%;
+		size: 200%;
+    }}
+    
+.thisChoice:hover{
+    background-color: green;
+    color: yellow;
+    padding: 5px;
 }
