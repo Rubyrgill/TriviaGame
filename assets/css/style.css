@@ -1,0 +1,16 @@
+body{
+    background-image: url("http://www.twitrcovers.com/wp-content/uploads/2012/12/Harry-Potter-l.jpg");
+    width: 100%;
+}
+
+.container {
+    margin-top: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#startBtn {
+font-size: 50px;
+margin-left: 25%;
+font-family: 'Righteous', cursive;
+}

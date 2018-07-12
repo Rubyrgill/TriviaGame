@@ -80,6 +80,8 @@ $(document).ready(function () {
         unanswered = 0;
         //call to generate first question 
         newQuestion()
+        //Game Background 
+        $("body").css('background-image', 'url("https://hpmedia.bloomsbury.com/rep/g/page-background%20-%20product.png")');
     }
 
     //Counter
