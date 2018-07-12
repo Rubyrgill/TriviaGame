@@ -21,7 +21,7 @@ Choose the correct answer for each question before the 10 second timer runs out.
 - HTML/CSS (Media Queries, Hover Effects, GoogleFonts)
 ```
 
-##GAME FEATURES: 
+## GAME FEATURES: 
 ```
 >>> START PAGE <<<
   - Start button with hover effect to begin Trivia Game (and Timer). 
