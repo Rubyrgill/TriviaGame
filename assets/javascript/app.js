@@ -20,7 +20,7 @@ $(document).ready(function () {
         //Question Three:
         question: "What was Harry's position on the Quidditch team?",
         answerList: ["Reciever", "Seeker", "Protector", "Defense"],
-        answer: 2
+        answer: 1
     }, {
         //Question Four:
         question: "Which talking item of clothing assigned Harry his house?",
@@ -33,14 +33,14 @@ $(document).ready(function () {
         answer: 0
     }, {
         //Question Five: TRUE/FALSE
-        question: "Harry uses the train platform 9 3/4 to travel to Hogwarts.",
+        question: "Harry uses the train platform 10 to travel to Hogwarts.",
         answerList: ["True", "False"],
-        answer: 0
+        answer: 1
     }, {
         //Question Six: TRUE/FALSE
         question: "Harry marries Hermione Granger?",
         answerList: ["True", "False"],
-        answer: 2
+        answer: 1
     }]
 
 
@@ -166,12 +166,12 @@ $(document).ready(function () {
             wrongChoices++;
             $('#message').html(messages.incorrect);
             //correct answer displays
-            $('#wrongAnswers').html('The correct answer was: ' + rightAnswerText);
+            $('#correctedAnswer').html('The correct answer was: ' + rightAnswerText);
         } else {
             //if player does not choose one before the timer runs out
             unanswered++;
             $('#message').html(messages.endTime);
-            $('#wrongAnswers').html('The correct answer was: ' + rightAnswerText);
+            $('#correctedAnswer').html('The correct answer was: ' + rightAnswerText);
             answered = true;
         }
         //once the last question is complete display scoreboard
@@ -191,7 +191,7 @@ $(document).ready(function () {
         $('#correctedAnswer').empty();
 
         //display message 
-        $('#message').html(messages.finished);
+        $('#finalMessage').html(messages.finished);
         //final counter results
         $('#correctAnswers').html("Correct Answers: " + correctChoices);
         $('#wrongAnswers').html("Wrong Answers: " + wrongChoices);

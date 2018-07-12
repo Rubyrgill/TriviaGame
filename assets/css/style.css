@@ -41,6 +41,12 @@ font-family: 'Righteous', cursive;
 h1{
     font-family: Righteous,cursive;
     font-size: 20px;
+    margin-bottom: 10px;
+    background-color: goldenrod;
+}
+p{
+    padding-bottom: 10px;
+    font-size: 18px;
 }
 
 /*QUESTION PAGE*/
@@ -49,21 +55,60 @@ h1{
 }
 
 #timer {
-    font-size: 40px;
-    border: 2px solid goldenrod;
+    font-size: 20px;
+    border-bottom: 2px solid purple;
     padding: 2px;
+    font-family: Righteous,cursive;
+    
 }
 #currentQuestion {
-    font-size: 40px;
-    border: 2px solid goldenrod;
+    font-size: 20px;
+    border-bottom: 2px solid purple;
 }
 .question {
+    padding-top: 5%;
     font-size: 40px;
-    border: 2px solid goldenrod;
+    border-bottom: 2px solid purple;
+    font-family: Righteous,cursive;
 }
 .answerList{
+    font-size: 30px;
+    border-bottom: 2px solid purple;
+}
+/*ANSWER PAGE*/
+#correctedAnswer {
+    font-size: 20px;
+    background-color: yellow;
+    font-family: Righteous,cursive;
+}
+#message {
+    font-family: Righteous,cursive;
+    font-size: 30px;
+}
+
+
+/*SCOREBOARD*/
+#finalMessage {
+    font-size: 30px;
+    font-family: Righteous,cursive;
+    margin-bottom: 10px;
+}
+#correctAnswers {
+    font-size: 20px;
+}
+#wrongAnswers{
+    font-size: 20px;
+}
+#unanswered {
+    font-size: 20px;
+}
+
+#startAgainBtn {
     font-size: 40px;
-    border: 2px solid goldenrod;
+    border: solid 5px goldenrod;
+    background-color: darkred;
+    font-family: Righteous,cursive;
+    margin-top: 10px;
 }
 
 /*RESPONSIVENESS*/
@@ -74,7 +119,9 @@ h1{
     }}
     
 .thisChoice:hover{
-    background-color: green;
-    color: yellow;
+    background-color: goldenrod;
+    color: brown;
     padding: 5px;
 }
+
+
