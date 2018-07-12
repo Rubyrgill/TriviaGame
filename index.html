@@ -15,36 +15,41 @@
     <!--Container for background-->
     <div class='container'>
         <!--Start Button-->
-        <button class='hvr-grow' id='startBtn'>START GAME</button>
+        <div class="back">
+            <img id="imgg" src="http://www.pngmart.com/files/3/Harry-Potter-Logo-PNG-Clipart-420x144.png">
 
+            <button class='hvr-grow' id='startBtn'>START GAME</button>
+        </div>
         <!-- Question page -->
+        <div id="game-play">
+            <div id="timer"></div>
 
-        <div id="timer"></div>
+            <div id="currentQuestion"></div>
 
-        <div id="currentQuestion"></div>
+            <div class="question"></div>
 
-        <div class="question"></div>
-
-        <div class="answerList"></div>
-
-
-        <!-- Scoreboard page -->
-        <div id="finalMessage"></div>
-
-        <div id="correctAnswers"></div>
-
-        <div id="wrongAnswers"></div>
-
-        <div id="unanswered"></div>
-
-        <div id="startAgainBtn"></div>
-
-        <!--Answer Page-->
-        <div id="message"></div>
-
-        <div id="correctedAnswer"></div>
+            <div class="answerList"></div>
 
 
+            <!-- Scoreboard page -->
+            <div id="finalMessage"></div>
+
+            <div id="correctAnswers"></div>
+
+            <div id="wrongAnswers"></div>
+
+            <div id="unanswered"></div>
+
+            <div button class="hvr-grow" id="startAgainBtn">
+                </button>
+            </div>
+
+            <!--Answer Page-->
+            <div id="message"></div>
+
+            <div id="correctedAnswer"></div>
+
+        </div>
     </div>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

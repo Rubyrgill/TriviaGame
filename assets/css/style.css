@@ -4,14 +4,24 @@ body{
 }
 
 .container {
-    margin-top: 20%;
+ 
     margin-left: 25%;
     margin-right: 25%;
 }
+
+
+
+img {
+    position: relative;
+    margin-left: 20%;
+}
+
 /*START GAME PAGE*/
 #startBtn {
 font-size: 50px;
 margin-left: 25%;
+margin-top: 5%;
+margin-bottom: 5%;
 font-family: 'Righteous', cursive;
 }
 

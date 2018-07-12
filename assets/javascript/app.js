@@ -81,7 +81,7 @@ $(document).ready(function () {
         //call to generate first question 
         newQuestion()
         //Game Background 
-        $("body").css('background-image', 'url("https://hpmedia.bloomsbury.com/rep/g/page-background%20-%20product.png")');
+        $("body").css('background-image', 'url("https://media0.giphy.com/media/U3qYN8S0j3bpK/giphy.gif")');
     }
 
     //Counter
@@ -113,6 +113,7 @@ $(document).ready(function () {
     function newQuestion() {
         $('#message').empty();
         $('#correctedAnswer').empty();
+        $('imgg').empty();
         answered = true;
 
         //sets up new question
