@@ -1,6 +1,7 @@
 body{
     background-image: url("http://www.twitrcovers.com/wp-content/uploads/2012/12/Harry-Potter-l.jpg");
     width: 100%;
+    text-align: center;
 }
 
 .container {
@@ -9,17 +10,13 @@ body{
     margin-right: 25%;
 }
 
-
-
 img {
     position: relative;
-    margin-left: 20%;
 }
 
 /*START GAME PAGE*/
 #startBtn {
 font-size: 50px;
-margin-left: 25%;
 margin-top: 5%;
 margin-bottom: 5%;
 font-family: 'Righteous', cursive;
@@ -39,4 +36,27 @@ font-family: 'Righteous', cursive;
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+/*QUESTION PAGE*/
+#game-play {
+    background-color: white;
+}
+
+#timer {
+    font-size: 40px;
+    border: 2px solid goldenrod;
+    padding: 2px;
+}
+#currentQuestion {
+    font-size: 40px;
+    border: 2px solid goldenrod;
+}
+.question {
+    font-size: 40px;
+    border: 2px solid goldenrod;
+}
+.answerList{
+    font-size: 40px;
+    border: 2px solid goldenrod;
 }

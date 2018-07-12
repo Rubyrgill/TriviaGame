@@ -8,34 +8,39 @@ $(document).ready(function () {
     //Create an array to hold questions in Object Array
     var Questions = [{
         //Question One:
-        question: "placeHolder: What color is the sky?",
-        answerList: ["red", "blue", "green", "yellow"],
+        question: "Who wrote the Harry Potter book series?",
+        answerList: ["Julia Roberts", "J.K Rowling", "J.B Rolling", "Stephenie Meyer"],
         answer: 1
     }, {
         //Question Two:
-        question: "dude?",
-        answerList: ["red", "blue", "green", "yellow"],
-        answer: 1
+        question: "What sport does Harry play at Hogwarts?",
+        answerList: ["Soccer", "Air-ball", "Wizard War", "Quidditch"],
+        answer: 3
     }, {
         //Question Three:
-        question: "pizza?",
-        answerList: ["red", "blue", "green", "yellow"],
-        answer: 1
+        question: "What was Harry's position on the Quidditch team?",
+        answerList: ["Reciever", "Seeker", "Protector", "Defense"],
+        answer: 2
     }, {
         //Question Four:
-        question: "pizza?",
-        answerList: ["red", "blue", "green", "yellow"],
-        answer: 1
+        question: "Which talking item of clothing assigned Harry his house?",
+        answerList: ["Shoe", "Glove", "Scarf", "Hat"],
+        answer: 3
+    }, {
+        //Question Five:
+        question: "Which house was Harry a member of?",
+        answerList: ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"],
+        answer: 0
     }, {
         //Question Five: TRUE/FALSE
-        question: "pizza?",
+        question: "Harry uses the train platform 9 3/4 to travel to Hogwarts.",
         answerList: ["True", "False"],
-        answer: 1
+        answer: 0
     }, {
         //Question Six: TRUE/FALSE
-        question: "pizza?",
+        question: "Harry marries Hermione Granger?",
         answerList: ["True", "False"],
-        answer: 1
+        answer: 2
     }]
 
 
@@ -57,10 +62,10 @@ $(document).ready(function () {
 
     //messages for new screen after answer result 
     var messages = {
-        correct: "RIGHT",
-        incorrect: "WRONG",
+        correct: "Good Job!...You are a real Wizard!",
+        incorrect: "Wrong Choice!",
         endTime: "TIME'S UP!",
-        finished: "ALL DONE!"
+        finished: "Game Over"
     }
 
     //FUNCTIONS 
@@ -81,14 +86,14 @@ $(document).ready(function () {
         //call to generate first question 
         newQuestion()
         //Game Background 
-        $("body").css('background-image', 'url("https://media0.giphy.com/media/U3qYN8S0j3bpK/giphy.gif")');
+        $("body").css('background-image', 'url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/J9H9WF0/night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-white-and-yellow-light-particles-flickering-on-a-dark-purple-background_bmdspwrvl_thumbnail-full01.png")');
     }
 
     //Counter
     function countDown() {
         //seconds per question
         sec = 10;
-        $('#timer').html('<h3> Time Remaining: ' + sec + '</h3>');
+        $('#timer').html('<h3> Time Left: ' + sec + '</h3>');
         answered = true;
         //sets timer to go down
         time = setInterval(showCountdDown, 1000);
@@ -98,7 +103,7 @@ $(document).ready(function () {
     function showCountdDown() {
         //seconds countdown
         sec--;
-        $('#timer').html('<h3>Time Remaining: ' + sec + '</h3>');
+        $('#timer').html('<h3>Time Left: ' + sec + '</h3>');
         //if seconds left is less than 1, then clear timer as player ran out of time 
         if (sec < 1) {
             clearInterval(time);
@@ -113,7 +118,6 @@ $(document).ready(function () {
     function newQuestion() {
         $('#message').empty();
         $('#correctedAnswer').empty();
-        $('imgg').empty();
         answered = true;
 
         //sets up new question
@@ -208,7 +212,7 @@ $(document).ready(function () {
         startGame();
     });
     //reset button
-    $('#startBtn').on('click', function () {
+    $('#startAgainBtn').on('click', function () {
         $(this).hide();
         startGame();
     });
