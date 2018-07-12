@@ -37,18 +37,21 @@ Choose the correct answer for each question before the 10 second timer runs out.
   - Options for players display with hover effect
 ```
 <img width="1098" alt="screen shot 2018-07-12 at 9 48 51 am" src="https://user-images.githubusercontent.com/38548548/42637385-06eb959a-85b9-11e8-825d-f9385c4d3ab5.png">
+
 ```
->>> ANSWER PAGE <<<
+ >>> ANSWER PAGE <<<
   - After each outcome (Correct, Wrong or Unanswered) new screen displays 
   - Displays outcome message (e.g. Wrong Choice) 
   - Shows player the correct answer to the previous question *IF* they answered incorrectly
   - Lasts for 2 seconds, then switches to Question Page or if all questions in done then the Scoreboard screen.
- ```
+```
 <img width="1135" alt="screen shot 2018-07-12 at 9 49 07 am" src="https://user-images.githubusercontent.com/38548548/42637391-0a046220-85b9-11e8-8963-9d55bb7b06c9.png">
+
 ```
   >>> SCOREBOARD PAGE <<<
   - Displays "GAME OVER" message
   - Displays players total correct answers, Wrong and Unanswered.
   - "Start Over" button to offer player option to try again, with hover effect. 
 ```
+
 <img width="1087" alt="screen shot 2018-07-12 at 9 49 38 am" src="https://user-images.githubusercontent.com/38548548/42637394-0baab34a-85b9-11e8-8586-5d0c1a17453f.png">
