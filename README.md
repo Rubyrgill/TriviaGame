@@ -37,9 +37,7 @@ Choose the correct answer for each question before the 10 second timer runs out.
   - Options for players display with hover effect
 ```
 
-<img width="1005" alt="screen shot 2018-07-12 at 8 37 00 pm" src="https://user-images.githubusercontent.com/38548548/42666492-8235764e-8613-11e8-9ee9-b9c72f86d2e3.png">
-
-
+<img width="1005" alt="screen shot 2018-07-12 at 8 34 36 pm" src="https://user-images.githubusercontent.com/38548548/42666435-12cdfda8-8613-11e8-9c11-53f8af9e7d80.png">
 
 
 ```
@@ -49,9 +47,7 @@ Choose the correct answer for each question before the 10 second timer runs out.
   - Shows player the correct answer to the previous question *IF* they answered incorrectly
   - Lasts for 2 seconds, then switches to Question Page or if all questions in done then the Scoreboard screen.
 ```
-<img width="1005" alt="screen shot 2018-07-12 at 8 34 36 pm" src="https://user-images.githubusercontent.com/38548548/42666435-12cdfda8-8613-11e8-9c11-53f8af9e7d80.png">
-
-
+<img width="904" alt="screen shot 2018-07-12 at 8 37 38 pm" src="https://user-images.githubusercontent.com/38548548/42666493-82581578-8613-11e8-854b-7ae6e21c42cd.png">
 
 
 ```
@@ -60,7 +56,9 @@ Choose the correct answer for each question before the 10 second timer runs out.
   - Displays players total correct answers, Wrong and Unanswered.
   - "Start Over" button to offer player option to try again, with hover effect. 
 ```
-<img width="904" alt="screen shot 2018-07-12 at 8 37 38 pm" src="https://user-images.githubusercontent.com/38548548/42666493-82581578-8613-11e8-854b-7ae6e21c42cd.png">
+<img width="1005" alt="screen shot 2018-07-12 at 8 37 00 pm" src="https://user-images.githubusercontent.com/38548548/42666492-8235764e-8613-11e8-9ee9-b9c72f86d2e3.png">
+
+
 
 
 
