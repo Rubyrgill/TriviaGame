@@ -45,7 +45,7 @@ Choose the correct answer for each question before the 10 second timer runs out.
   - Shows player the correct answer to the previous question *IF* they answered incorrectly
   - Lasts for 2 seconds, then switches to Question Page or if all questions in done then the Scoreboard screen.
 ```
-<img width="1135" alt="screen shot 2018-07-12 at 9 49 07 am" src="https://user-images.githubusercontent.com/38548548/42637391-0a046220-85b9-11e8-8963-9d55bb7b06c9.png">
+<img width="1005" alt="screen shot 2018-07-12 at 8 34 36 pm" src="https://user-images.githubusercontent.com/38548548/42666435-12cdfda8-8613-11e8-9c11-53f8af9e7d80.png">
 
 ```
   >>> SCOREBOARD PAGE <<<
