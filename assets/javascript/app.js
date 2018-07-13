@@ -85,8 +85,6 @@ $(document).ready(function () {
         unanswered = 0;
         //call to generate first question 
         newQuestion()
-        //Game Background 
-        $("body").css('background-image', 'url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/J9H9WF0/night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-white-and-yellow-light-particles-flickering-on-a-dark-purple-background_bmdspwrvl_thumbnail-full01.png")');
     }
 
     //Counter
