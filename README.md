@@ -36,7 +36,11 @@ Choose the correct answer for each question before the 10 second timer runs out.
   - New Question appears 
   - Options for players display with hover effect
 ```
-<img width="1098" alt="screen shot 2018-07-12 at 9 48 51 am" src="https://user-images.githubusercontent.com/38548548/42637385-06eb959a-85b9-11e8-825d-f9385c4d3ab5.png">
+
+<img width="1005" alt="screen shot 2018-07-12 at 8 37 00 pm" src="https://user-images.githubusercontent.com/38548548/42666492-8235764e-8613-11e8-9ee9-b9c72f86d2e3.png">
+
+
+
 
 ```
  >>> ANSWER PAGE <<<
@@ -47,11 +51,16 @@ Choose the correct answer for each question before the 10 second timer runs out.
 ```
 <img width="1005" alt="screen shot 2018-07-12 at 8 34 36 pm" src="https://user-images.githubusercontent.com/38548548/42666435-12cdfda8-8613-11e8-9c11-53f8af9e7d80.png">
 
+
+
+
 ```
   >>> SCOREBOARD PAGE <<<
   - Displays "GAME OVER" message
   - Displays players total correct answers, Wrong and Unanswered.
   - "Start Over" button to offer player option to try again, with hover effect. 
 ```
+<img width="904" alt="screen shot 2018-07-12 at 8 37 38 pm" src="https://user-images.githubusercontent.com/38548548/42666493-82581578-8613-11e8-854b-7ae6e21c42cd.png">
 
-<img width="1087" alt="screen shot 2018-07-12 at 9 49 38 am" src="https://user-images.githubusercontent.com/38548548/42637394-0baab34a-85b9-11e8-8586-5d0c1a17453f.png">
+
+
