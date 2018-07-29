@@ -1,4 +1,4 @@
-# Harry Potter Trivia Game
+# The Harry Potter Trivia Game
 
 ## LINK TO LIVE GAME: https://rubyrgill.github.io/TriviaGame/
 
